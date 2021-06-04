@@ -3,7 +3,7 @@ This is a concurrency problem from the book [The Little Book of Semaphores](http
 
 ## Problem Description 
 
-Any situation where a data structure, database, or file system is read and modified by concurrent threads. While the data structure is being written or modified it is often necessary to bar other threads from reading, in order to prevent a reader from interrupting a modification in progress and reading inconsistent or invalid data.”
+Any situation where a data structure, database, or file system is read and modified by concurrent threads , While the data structure is being written or modified it is often necessary to bar other threads from reading, in order to prevent a reader from interrupting a modification in progress and reading inconsistent or invalid data.”
 
 In other words, any number of readers can read the shared resource and only one writer can write to it at a time.
 
