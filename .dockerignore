@@ -1,4 +1,4 @@
 .dockerignore
 Dockerfile
 Dockerfile.prod
-reader.yaml
+reader-writer.yaml
